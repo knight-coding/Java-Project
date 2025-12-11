@@ -11,13 +11,35 @@ The workspace contains two folders by default, where:
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there. <br>
+
+<br>
+
+# 📝 Features
+
+1. Add new tasks
+
+2. Mark tasks as completed
+
+3. Delete tasks
+
+4. View all tasks in a table
+
+5. Refresh task list from the database
+
+6. Simple Swing-based GUI
+
+7. MySQL database integration 
+
+<br>
 
 # 📌 Prerequisites to Run This Project
 
 This project uses Java Swing and MySQL Database.
 Since the lib folder (containing external JARs) is not uploaded, you must set them up manually.
 
+
+<br>
 
 # ✅ 1. Install Required Software
 ✔ Java JDK (17 or above)
@@ -27,6 +49,9 @@ Download from Oracle or OpenJDK.
 ✔ MySQL Server & MySQL Workbench
 
 You must have MySQL running.
+
+<br>
+
 
 # ✅ 2. Add Required JAR Files
 
@@ -49,6 +74,8 @@ Eclipse: Right-click project → Build Path → Add External Archives
 
 IntelliJ: File → Project Structure → Libraries → Add JAR
 
+<br>
+
 # ✅ 3. MySQL Database Setup
 
 Before running the project, create the database and table.
@@ -69,6 +96,8 @@ CREATE TABLE todos (
 );
 ```
 
+<br>
+
 # ✅ 4. Update Database Credentials
 
 In your Java code (usually in DB connection class), update:
@@ -78,6 +107,8 @@ String url = "jdbc:mysql://localhost:3306/todolist";
 String username = "root";
 String password = "your_mysql_password";
 ```
+
+<br>
 
 # ✅ 5. Run the Application
 Run the application by clicking on run button.
